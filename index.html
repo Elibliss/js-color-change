@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>color changer</title>
+    <link ref="style-sheet" href="style.css">
+    <style>
+        * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: ghostwhite;
+}
+div {
+    margin-top: 20%;
+    box-shadow: 1px 2px 60px 2px #555;
+    padding: 20px;
+    padding-bottom: 40px;
+    border-top-right-radius: 10px;
+}
+div h2 {
+    font-size: 20px;
+}
+div h4 {
+    font-size: 30px;
+    margin: 10px;
+}
+div button {
+    color: #555;
+    background-color:bisque;
+    border: none;
+    width: 30rem;
+    height: 2rem;
+    font-size: 20px;
+    border-radius: 5px;
+}
+    </style>
+
+
+</head>
+<body>
+    <div>
+        <h2>THE BACKGROUND COLOUR CODE IS :</h2>
+        <h4 id="color-code">#5e5e5e</h4>
+        <button id="Btn">change colour</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
